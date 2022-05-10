@@ -1,7 +1,17 @@
+import React, { useEffect } from "react";
 import logo from './logo.svg';
 import './App.css';
+import axios from 'axios';
+
+const API = "http://localhost:3000/students";
 
 function App() {
+
+  useEffect(() => {
+    fetch(API)
+      .then((response) => response.json);
+  })
+
   return (
     <div className="App">
       <header className="App-header">
