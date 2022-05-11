@@ -7,14 +7,16 @@ function Queue() {
     useEffect(() => {
         fetch("http://localhost:3001/students")
             .then((response) => response.json())
-            .then((students) => console.log(students));
+            .then((students) => setStudents(students));
     }, []);
 
     return (
-        <div>
+        <div className="Queue">
+            <ul>
             {students.map((student) => (
                 <Student key={student.id} student={student} />
             ))}
+            </ul>
         </div>
     );
 }
