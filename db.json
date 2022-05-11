@@ -1,0 +1,130 @@
+{
+  "students": [
+    {
+      "name": "Harry Potter",
+      "gender": "male",
+      "house": "Gryffindor",
+      "image": "http://hp-api.herokuapp.com/images/harry.jpg"
+      },
+      {
+      "name": "Hermione Granger",
+      "gender": "female",
+      "house": "Gryffindor",
+      "image": "http://hp-api.herokuapp.com/images/hermione.jpeg"
+      },
+      {
+      "name": "Ron Weasley",
+      "gender": "male",
+      "house": "Gryffindor",
+      "image": "http://hp-api.herokuapp.com/images/ron.jpg"
+      },
+      {
+      "name": "Draco Malfoy",
+      "gender": "male",
+      "house": "Slytherin",
+      "image": "http://hp-api.herokuapp.com/images/draco.jpg"
+      },
+      {
+      "name": "Cedric Diggory",
+      "gender": "male",
+      "house": "Hufflepuff",
+      "image": "http://hp-api.herokuapp.com/images/cedric.png"
+      },
+      {
+      "name": "Cho Chang",
+      "gender": "female",
+      "house": "Ravenclaw",
+      "image": "http://hp-api.herokuapp.com/images/cho.jpg"
+      },
+      {
+      "name": "Neville Longbottom",
+      "gender": "male",
+      "house": "Gryffindor",
+      "image": "http://hp-api.herokuapp.com/images/neville.jpg"
+      },
+      {
+      "name": "Luna Lovegood",
+      "gender": "female",
+      "house": "Ravenclaw",
+      "image": "http://hp-api.herokuapp.com/images/luna.jpg"
+      },
+      {
+      "name": "Ginny Weasley",
+      "gender": "female",
+      "house": "Gryffindor",
+      "image": "http://hp-api.herokuapp.com/images/ginny.jpg"
+      },
+      {
+      "name": "Vincent Crabbe",
+      "gender": "male",
+      "house": "Slytherin",
+      "image": "http://hp-api.herokuapp.com/images/crabbe.jpg"
+      },
+      {
+      "name": "Gregory Goyle",
+      "gender": "male",
+      "house": "Slytherin",
+      "image": "http://hp-api.herokuapp.com/images/goyle.jpg"
+      },
+      {
+      "name": "Percy Weasley",
+      "gender": "male",
+      "house": "Gryffindor"
+      },
+      {
+      "name": "Fred Weasley",
+      "gender": "male",
+      "house": "Gryffindor"
+      },
+      {
+      "name": "George Weasley",
+      "gender": "male",
+      "house": "Gryffindor"
+      },
+      {
+      "name": "Lee Jordan",
+      "gender": "male",
+      "house": "Gryffindor"
+      },
+      {
+      "name": "Hannah Abbott",
+      "gender": "female",
+      "house": "Hufflepuff"
+      },
+      {
+      "name": "Susan Bones",
+      "gender": "female",
+      "house": "Hufflepuff"
+      },
+      {
+      "name": "Terry Boot",
+      "gender": "male",
+      "house": "Ravenclaw"
+      },
+      {
+      "name": "Mandy Brocklehurst",
+      "gender": "female",
+      "house": "Ravenclaw"
+      },
+      {
+      "name": "Lavender Brown",
+      "gender": "female",
+      "house": "Gryffindor"
+      },
+      {
+      "name": "Millicent Bulstrode",
+      "gender": "female",
+      "house": "Slytherin"
+      },
+      {
+      "name": "Justin Finch-Fletchley",
+      "gender": "male",
+      "house": "Hufflepuff"
+      },
+      {
+      "name": "Seamus Finnegan",
+      "gender": "male",
+      "house": "Gryffindor"
+      }
+  ]
+}
