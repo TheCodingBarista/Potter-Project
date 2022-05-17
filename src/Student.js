@@ -4,15 +4,23 @@ function Student({ student }) {
     const { name, gender, house, image } = student;
 
     return (
-        <div className="student">
-            <h4>{name}</h4>
-            <h6>{gender}</h6>
-            <p>{house}</p>
-            <img src={image}
-            alt={name}
-            width="100%"
-          />
+        <div class="row active-with-click">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div className="student" class="material-card Red">
+                    <img class="img-responsive" src={image}
+                    alt={name}
+                    width="30%"
+                    />
+                    <h2>
+                        <span>{name}</span>
+                    </h2>
+                    <h4>                        
+                        <strong>{house}</strong>
+                    </h4>
+                </div>
+            </div>
         </div>
+
     )
 }
 

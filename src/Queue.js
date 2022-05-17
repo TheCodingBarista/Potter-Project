@@ -14,7 +14,7 @@ function Queue() {
         <div className="Queue">
             <ul>
             {students.map((student) => (
-                <Student key={student.id} student={student} />
+                    <Student key={student.id} student={student} />
             ))}
             </ul>
         </div>
