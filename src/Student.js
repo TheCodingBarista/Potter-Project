@@ -5,8 +5,8 @@ function Student({ student }) {
 
     return (
         <div className="gallery-cell">
-            <div className="student">
-                <img class="img-responsive" src={image}
+                <img 
+                    src={image}
                     alt={name}
                 />
                 <h2>
@@ -15,7 +15,6 @@ function Student({ student }) {
                 <h4>                        
                     <strong>{house}</strong>
                 </h4>
-            </div>
         </div>
 
     )
