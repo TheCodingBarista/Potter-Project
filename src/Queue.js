@@ -11,13 +11,12 @@ function Queue() {
     }, []);
 
     return (
-        <div className="Queue">
-            <ul>
-            {students.map((student) => (
-                    <Student key={student.id} student={student} />
-            ))}
-            </ul>
-        </div>
+        <div className="gallery js-flickity"
+        data-flickity-options='{ "cellAlign": "left", "contain": true "wrapAround": true }'>
+                {students.map((student) => (
+                         <Student key={student.id} student={student} />
+                ))}
+      </div>
     );
 }
 

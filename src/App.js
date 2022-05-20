@@ -2,11 +2,9 @@ import React, { useState, useEffect } from "react";
 import './App.css';
 import Queue from './Queue';
 
-
 function App() {
-
   return (
-    <div className="App">
+    <div className="app">
       <header className="App-header">
         <h1>The ceremony is about to begin!</h1>
         <br></br>

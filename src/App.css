@@ -1,10 +1,3 @@
-.App {
-  text-align: center;
-  background-color: #282c34;
-  color: white;
-}
-
-
 .App-header {
   min-height: 100vh;
   display: flex;
@@ -16,15 +9,9 @@
 }
 
 .app {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr, 2fr, 2fr, 2fr, 1fr);
-  grid-auto-rows: minmax(100px, auto);
-  align-items: center;
-  grid-template-areas:
-    ". . . . ."
-    ". bt bt bt ."
-    ". . rm . ."
-    ". tb tb tb .";
+  text-align: center;
+  background-color: #282c34;
+  color: white;
 }
 
 img {
@@ -32,14 +19,18 @@ img {
   height: auto;
 }
 
-.Queue {
-  display:flex;
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
+.gallery {
+  display: flex;
+}
 
-
-
-
-
-
-
+.gallery-cell {
+  display: block;
+  text-align: center;
+  width: 66%;
+  margin-right: 10px;
+}
