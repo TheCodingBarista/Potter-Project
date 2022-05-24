@@ -11,10 +11,10 @@ function Queue() {
     }, []);
 
     return (
-        <div className="gallery js-flickity"
-        data-flickity-options='{ "cellAlign": "left", "contain": true "wrapAround": true }'>
+        <div className="carousel"
+        data-flickity='{ "contain": true, "prevNextButtons": true }'>
                 {students.map((student) => (
-                         <Student key={student.id} student={student} />
+                        <Student key={student.id} student={student} />
                 ))}
       </div>
     );

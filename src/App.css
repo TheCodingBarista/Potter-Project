@@ -22,21 +22,21 @@ img {
   height: 500px;
   width: 350px;
 }
+
 header > img {
   width: 100%;
 }
 
 * {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
-}
+}  
 
-.gallery {
+.carousel {
   display: flex;
 }
 
-.gallery-cell {
+.carousel-cell {
   text-align: center;
-  width: 33%;
+  width: 66%;
   margin: 50px;
 }
