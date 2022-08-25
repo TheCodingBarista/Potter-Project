@@ -4,7 +4,7 @@ function Student({ student }) {
     const { name, gender, house, image } = student;
 
     return (
-        <div className="carousel-cell">
+        <div class="carousel-cell">
                 <img 
                     src={image}
                     alt={name}

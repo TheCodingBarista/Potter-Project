@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Student from "./Student";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 
 function Queue() {
     const [students, setStudents] = useState([]);
@@ -11,12 +13,11 @@ function Queue() {
     }, []);
 
     return (
-        <div className="carousel"
-        data-flickity='{ "contain": true, "prevNextButtons": true }'>
+            <Carousel class="carousel" centerMode>
                 {students.map((student) => (
-                        <Student key={student.id} student={student} />
+                    <Student key={student.id} student={student} />
                 ))}
-      </div>
+            </Carousel>
     );
 }
 

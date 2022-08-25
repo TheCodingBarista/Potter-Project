@@ -6,8 +6,10 @@
     "flickity": "^3.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-responsive-carousel": "^3.2.23",
     "react-scripts": "4.0.1",
-    "semantic-ui-react": "^2.1.2"
+    "semantic-ui-react": "^2.1.2",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "json-server": "^0.15.1"
