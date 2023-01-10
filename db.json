@@ -3,152 +3,152 @@
     {
       "name": "Harry Potter",
       "gender": "male",
-      "house": "Gryffindor",
+      "house": "gryffindor",
       "image": "http://hp-api.herokuapp.com/images/harry.jpg"
       },
       {
       "name": "Hermione Granger",
       "gender": "female",
-      "house": "Gryffindor",
+      "house": "gryffindor",
       "image": "http://hp-api.herokuapp.com/images/hermione.jpeg"
       },
       {
       "name": "Ron Weasley",
       "gender": "male",
-      "house": "Gryffindor",
+      "house": "gryffindor",
       "image": "http://hp-api.herokuapp.com/images/ron.jpg"
       },
       {
       "name": "Draco Malfoy",
       "gender": "male",
-      "house": "Slytherin",
+      "house": "slytherin",
       "image": "http://hp-api.herokuapp.com/images/draco.jpg"
       },
       {
       "name": "Cedric Diggory",
       "gender": "male",
-      "house": "Hufflepuff",
+      "house": "hufflepuff",
       "image": "http://hp-api.herokuapp.com/images/cedric.png"
       },
       {
       "name": "Cho Chang",
       "gender": "female",
-      "house": "Ravenclaw",
+      "house": "ravenclaw",
       "image": "http://hp-api.herokuapp.com/images/cho.jpg"
       },
       {
       "name": "Neville Longbottom",
       "gender": "male",
-      "house": "Gryffindor",
+      "house": "gryffindor",
       "image": "http://hp-api.herokuapp.com/images/neville.jpg"
       },
       {
       "name": "Luna Lovegood",
       "gender": "female",
-      "house": "Ravenclaw",
+      "house": "ravenclaw",
       "image": "http://hp-api.herokuapp.com/images/luna.jpg"
       },
       {
       "name": "Ginny Weasley",
       "gender": "female",
-      "house": "Gryffindor",
+      "house": "gryffindor",
       "image": "http://hp-api.herokuapp.com/images/ginny.jpg"
       },
       {
       "name": "Vincent Crabbe",
       "gender": "male",
-      "house": "Slytherin",
+      "house": "slytherin",
       "image": "http://hp-api.herokuapp.com/images/crabbe.jpg"
       },
       {
       "name": "Gregory Goyle",
       "gender": "male",
-      "house": "Slytherin",
+      "house": "slytherin",
       "image": "http://hp-api.herokuapp.com/images/goyle.jpg"
       },
       {
       "name": "Percy Weasley",
       "gender": "male",
-      "house": "Gryffindor",
+      "house": "gryffindor",
       "image": "https://www.tafce.com/images/thumb/1/17/Percy_CoS_-_Edited.png/375px-Percy_CoS_-_Edited.png"
 
       },
       {
       "name": "Fred Weasley",
       "gender": "male",
-      "house": "Gryffindor",
+      "house": "gryffindor",
       "image": "https://img.wattpad.com/cover/112730795-288-k482373.jpg"
       },
       {
       "name": "George Weasley",
       "gender": "male",
-      "house": "Gryffindor",
+      "house": "gryffindor",
       "image": "https://images.hobbydb.com/processed_uploads/subject_photo/subject_photo/image/29897/1503525390-20754-6318/GEO_large.jpg"
       },
       {
       "name": "Lee Jordan",
       "gender": "male",
-      "house": "Gryffindor",
+      "house": "gryffindor",
       "image": "https://www.tafce.com/images/thumb/2/25/Lee_Jordan_-_Edited.png/400px-Lee_Jordan_-_Edited.png"
       },
       {
       "name": "Hannah Abbott",
       "gender": "female",
-      "house": "Hufflepuff",
+      "house": "hufflepuff",
       "image": "https://pbs.twimg.com/profile_images/1170687831427039238/8qKj4Lnp_400x400.jpg"
       },
       {
       "name": "Susan Bones",
       "gender": "female",
-      "house": "Hufflepuff",
+      "house": "hufflepuff",
       "image": "https://i.redd.it/wy4jbgxxyem71.jpg"
       },
       {
       "name": "Lavender Brown",
       "gender": "female",
-      "house": "Gryffindor",
+      "house": "gryffindor",
       "image": "https://www.looper.com/img/gallery/why-the-role-of-lavender-brown-was-recast-in-harry-potter/lavender-brown-was-played-by-three-actresses-in-the-harry-potter-films-1626966623.webp"
       },
       {
       "name": "Millicent Bulstrode",
       "gender": "female",
-      "house": "Slytherin",
+      "house": "slytherin",
       "image": "https://fantasytopics.com/wp-content/uploads/2022/01/Millicent-Bulstrode.jpg.webp"
       },
       {
       "name": "Justin Finch-Fletchley",
       "gender": "male",
-      "house": "Hufflepuff",
+      "house": "hufflepuff",
       "image": "https://i.pinimg.com/736x/cc/e9/14/cce914a981ce03a0db4334c6fe5dbb1d--st-year-loyalty.jpg"
       },
       {
       "name": "Seamus Finnigan",
       "gender": "male",
-      "house": "Gryffindor",
+      "house": "gryffindor",
       "image": "https://images.ctfassets.net/usf1vwtuqyxm/3AIPltW688yYGguoOacqOE/1eeae65e73b7b50df79d510b329dd866/SeamusFinnigan_WB_F4_SeamusFinniganGrabbingHisCloak_Promo_080615_Port.jpg?w=914&q=70&fm=jpg"
       },
       {
       "name": "Dean Thomas",
       "gender": "male",
-      "house": "Gryffindor",
+      "house": "gryffindor",
       "image": "https://pbs.twimg.com/profile_images/3365588860/a24116821e56224b8c0b88a3bc30ff38_400x400.png"
       },
       {
       "name": "Parvati Patil",
       "gender": "female",
-      "house": "Gryffindor",
+      "house": "gryffindor",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNIDo7ChEyM03BvJhFSwESHEMuq59KhkXfKFEShmpwzTq_en6TKxlh2J1dwADf9PWx8No&usqp=CAU"
       } ,     
       {
       "name": "Padma Patil",
       "gender": "female",
-      "house": "Ravenclaw",
+      "house": "ravenclaw",
       "image": "https://i.pinimg.com/564x/36/fd/79/36fd791fc0d0e43663ee27eaa874ed56.jpg"
       },        
       {
       "name": "Blaise Zabini",
       "gender": "male",
-      "house": "Slytherin",
+      "house": "slytherin",
       "image": "https://i.pinimg.com/550x/c9/d3/14/c9d314bb22e56f8516e3a4b991f76639.jpg"
       }    
   ]
