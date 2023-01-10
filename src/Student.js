@@ -4,7 +4,7 @@ import { useState } from "react";
 
 function Student({ student }) {
     const { name, image, house } = student;
-
+    
     return (
         <div class="carousel-cell">
                 <img 
