@@ -1,7 +1,9 @@
 import React from "react";
+import classNames from "classnames";
+import { useState } from "react";
 
 function Student({ student }) {
-    const { name, gender, house, image } = student;
+    const { name, image, house } = student;
 
     return (
         <div class="carousel-cell">
@@ -9,14 +11,11 @@ function Student({ student }) {
                     src={image}
                     alt={name}
                 />
+                <br></br>
                 <h2>
                     <span>{name}</span>
                 </h2>
-                <h4>                        
-                    <strong>{house}</strong>
-                </h4>
         </div>
-
     )
 }
 
