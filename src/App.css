@@ -7,6 +7,7 @@
 
 body {
   background-color: #282c34;
+  color: white;
 }
 
 .App-header {
@@ -19,50 +20,24 @@ body {
   color: white;
 }
 
-.app {
-  text-align: center;
-  color: white;
-}
-
-img {
-  border: 5px solid white;
-  height: 500px;
-  width: 350px;
-}
-
 header > img {
   width: 80%;
   border: 5px solid white;
 }
 
-
 .carousel {
-  display: flex;
+  display: block;
   max-width: 500px;
   margin: auto;
-  align-self: center;
+  min-height: 900px;
 }
 
 .carousel-cell {
-  text-align: center;
-  width: 80%;
-  margin: 50px;
   border: 5px solid white;
-
+  align-self: center;
 }
 
-.carousel-cell img {
-  display: block;
-  height: 350px;
 
-} 
-
-@media screen and ( min-width: 768px ) {
-  .carousel-cell img {
-    height: 800px;
-    width: 350px;
-  }
-}
 
 .nav_btn {
   position: absolute;
@@ -76,6 +51,7 @@ header > img {
   border-radius: 50%;
   background: #fff;
 }
+
 .nav_btn > svg {
   fill: #000;
   width: 100%;

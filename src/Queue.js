@@ -15,7 +15,6 @@ function Queue() {
 
     return (
         <Carousel class="carousel"  
-            showIndicators
             renderArrowNext={(clickHandler, hasNext) => {
                 return (
                     hasNext && (
