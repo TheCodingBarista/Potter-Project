@@ -14,7 +14,8 @@ function Queue() {
     }, []);
 
     return (
-        <Carousel class="carousel"  
+      <div class="carousel">
+        <Carousel   
             renderArrowNext={(clickHandler, hasNext) => {
                 return (
                     hasNext && (
@@ -44,12 +45,16 @@ function Queue() {
                   </p>
                 );
               }}
+
           >
                 {students.map((student) => (
                     <Student key={student.id} student={student} />
                 ))}
             </Carousel>
+            </div>
+
     );
 }
+
 
 export default Queue;

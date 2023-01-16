@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import './App.css';
 import Queue from './Queue';
 import Header from './Header';
+import './App.css';
 
 
 function App() {
