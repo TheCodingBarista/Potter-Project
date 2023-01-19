@@ -11,12 +11,13 @@ function Student({ student }) {
                     src={image}
                     alt={name}
                 />
-                <br></br>
+                <br></br><br></br>
                 <h2>
                     <span>{name}</span>
                 </h2>
                <br></br>
                 <h4><strong>{house}</strong></h4>
+                <br></br><br></br>
         </div>
     )
 }

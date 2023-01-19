@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Student from "./Student";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import sprite from "./sprite.svg";
 
@@ -45,14 +45,22 @@ function Queue() {
                   </p>
                 );
               }}
-
+              renderIndicator={(clickHandler, isSelected, index) => {
+                return (
+                  <li
+                    onClick={clickHandler}
+                    className={`ind ${isSelected ? "active" : ""}`}
+                    key={index}
+                    role="button"
+                  />
+                );
+              }}          
           >
                 {students.map((student) => (
                     <Student key={student.id} student={student} />
                 ))}
             </Carousel>
             </div>
-
     );
 }
 
