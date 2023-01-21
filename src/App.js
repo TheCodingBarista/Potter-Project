@@ -1,12 +1,13 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Queue from './Queue';
 import Header from './Header';
 import './App.css';
 
 
 function App() {
+
   return (
-    <div className="app">
+    <div class="app">
       <Header />
       <Queue />
     </div>

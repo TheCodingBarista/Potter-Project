@@ -1,12 +1,17 @@
-import React from "react";
-import classNames from "classnames";
-import { useState } from "react";
+import React, { useState } from "react";
+import House from './House';
 
 function Student({ student }) {
-    const { name, image, house } = student;
-    
+    const { name, image, house} = student;
+    const [toggle, setToggle] = useState(true);
+
+    const handleClick = () => {
+        setToggle(!toggle);
+    };
+
     return (
-        <div class="carousel-cell slide">
+        <div class="carousel-cell">
+                <br></br>
                 <img 
                     src={image}
                     alt={name}
@@ -15,8 +20,13 @@ function Student({ student }) {
                 <h2>
                     <span>{name}</span>
                 </h2>
-               <br></br>
-                <h4><strong>{house}</strong></h4>
+                <br></br><br></br>
+                <button onClick={handleClick} class="button">
+                    Sort me!
+                </button>
+                <div style={{ display: toggle ? 'none' : 'block' }} class="box">
+                    <House house={house} />
+                </div>
                 <br></br><br></br>
         </div>
     )
