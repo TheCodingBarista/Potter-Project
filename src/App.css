@@ -22,6 +22,7 @@ body {
 
 header > img {
   width: 80%;
+  border: 5px solid white;
 }
 
 .carousel-cell {
@@ -103,6 +104,15 @@ img {
   font-weight: 700;
 }
 
+.box {
+  width: 900px;
+  line-height: 300px;
+  height: 300px;
+  margin-top: 50px;
+  align-self: center;
+  text-align: center;
+}
+
 .gryffindor {
   background-color: #740001;
   color: #D3A625;
@@ -121,17 +131,6 @@ img {
 .ravenclaw {
   background-color: #0E1A40;
   color: #946B2D;
-}
-
-.box {
-    width: 900px;
-    line-height: 300px;
-    height: 300px;
-    margin-top: 50px;
-    align-self: center;
-    background-color: #f44;
-    color: #fff;
-    text-align: center;
 }
 
 h4 {

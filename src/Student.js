@@ -26,7 +26,7 @@ function Student({ student }) {
                 </button>
                 <div style={{ display: toggle ? 'none' : 'block' }} class="box">
                     <House house={house} />
-                </div>
+                </div >
                 <br></br><br></br>
         </div>
     )
