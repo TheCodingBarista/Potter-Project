@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", "Oswald", sans-serif;
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", "Oswald", "Harry Potter", sans-serif;
 }
 
 body {
@@ -27,8 +27,8 @@ header > img {
 
 .carousel-cell {
   align-self: center;
+  font-family: 'Harry Potter', sans-serif;
   font-family: "Oswald", Helvetica Neue;
-  border: 5px solid white;
 
 }
 
@@ -39,8 +39,9 @@ header > img {
   max-width: 900px;
 }
 
-img {
+.carousel-cell .img {
   height: 900px;
+  border: 5px solid white;
 }
 
 .nav_btn {
@@ -116,28 +117,41 @@ img {
 .gryffindor {
   background-color: #740001;
   color: #D3A625;
+  border: 5px solid #D3A626;
+
 }
 
 .hufflepuff {
   background-color: #FFD800;
   color: #000;
+  border: 5px solid #000;
+
 }
 
 .slytherin {
   background-color: #1A472A;
   color: #5D5D5D;
+  border: 5px solid #5D5D5D;
+
 }
 
 .ravenclaw {
   background-color: #0E1A40;
   color: #946B2D;
+  border: 5px solid #0E1A40;
+
 }
 
 h4 {
     text-transform: uppercase;
     text-align: center;
     padding: 70px 0;
-    font: 72px "Oswald";
+    font: 72px "Harry Potter";
+}
+
+h2 {
+  text-align: center;
+  font: 48px "Harry Potter";
 }
 
 .button {

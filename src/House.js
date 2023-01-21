@@ -15,7 +15,7 @@ function House({ house }) {
             return <Ravenclaw house={house} />;
         case "slytherin":
               return <Slytherin house={house} />;
-          default:
+        default:
           return null;
       }
   };

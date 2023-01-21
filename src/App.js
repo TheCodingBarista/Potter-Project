@@ -9,6 +9,7 @@ function App() {
   return (
     <div class="app">
       <Header />
+      <br></br>
       <Queue />
     </div>
   );
