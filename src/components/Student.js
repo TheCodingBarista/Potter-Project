@@ -10,7 +10,7 @@ function Student({ student }) {
     };
 
     return (
-        <div class="carousel-cell">
+        <div className="carousel-cell">
                 <br></br>
                 <img 
                     src={image}
@@ -21,11 +21,11 @@ function Student({ student }) {
                     <span>{name}</span>
                 </h2>
                 <br></br><br></br>
-                <button onClick={handleClick} class="button">
+                <button onClick={handleClick} className="button">
                     Sort me!
                 </button>
                 <br></br><br></br>
-                <div style={{ display: toggle ? 'none' : 'block' }} class="box">
+                <div style={{ display: toggle ? 'none' : 'block' }} className="box">
                     <House house={house} />
                 </div >
                 <br></br><br></br>

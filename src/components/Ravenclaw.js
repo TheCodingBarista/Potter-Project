@@ -2,7 +2,7 @@ import React from "react";
 
 function Ravenclaw({ house }) {
     return (
-        <div class="ravenclaw">
+        <div className="ravenclaw">
             <h4>
                 <strong>
                     {house}!!!

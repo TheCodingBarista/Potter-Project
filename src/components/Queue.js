@@ -22,7 +22,7 @@ function Queue() {
     return (
       <Container>
         <StudentForm onAddStudent={handleAddStudent} />
-        <div class="carousel">
+        <div className="carousel">
         <Carousel   
             renderArrowNext={(clickHandler, hasNext) => {
                 return (
@@ -65,7 +65,7 @@ function Queue() {
               }}          
           >
                 {students.map((student) => (
-                    <Student key={student.id} student={student} />
+                    <Student student={student} />
                 ))}
             </Carousel>
             </div>

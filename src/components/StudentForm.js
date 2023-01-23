@@ -33,17 +33,19 @@ function StudentForm({onAddStudent}) {
     
     return (
         <div>
-            <h3>Add a Student</h3>
-            <Form onSubmit={handleSubmit}>
+            <Form className="form" onSubmit={handleSubmit}>
              <Form.Group widths="equal">
-                <Form.Input 
+                <h3>Add a Student</h3>
+                <Form.Input
+                    className="input"
                     fluid label="Name" 
                     placeholder="Roonil Wazlib" 
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
                 />
-                <Form.Input 
+                <Form.Input
+                    className="input"
                     fluid label="House" 
                     placeholder="Thunderbird" 
                     name="house"

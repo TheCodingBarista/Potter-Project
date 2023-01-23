@@ -2,7 +2,7 @@ import React from "react";
 
 function Hufflepuff({ house }) {
     return (
-        <div class="hufflepuff">
+        <div className="hufflepuff">
             <h4>
                 <strong>
                     {house}!!!
