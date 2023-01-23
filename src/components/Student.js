@@ -24,6 +24,7 @@ function Student({ student }) {
                 <button onClick={handleClick} class="button">
                     Sort me!
                 </button>
+                <br></br><br></br>
                 <div style={{ display: toggle ? 'none' : 'block' }} class="box">
                     <House house={house} />
                 </div >

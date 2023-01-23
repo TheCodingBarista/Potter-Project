@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
 import Student from "./Student";
+import StudentForm from "./StudentForm";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-import sprite from "./sprite.svg";
+import { Container } from "semantic-ui-react";
+import sprite from "../sprite.svg";
 
 function Queue() {
     const [students, setStudents] = useState([]);
@@ -13,8 +15,14 @@ function Queue() {
             .then((students) => setStudents(students));
     }, []);
 
+    function handleAddStudent(newStudent) {
+      setStudents([...students, newStudent]);
+    }
+
     return (
-      <div class="carousel">
+      <Container>
+        <StudentForm onAddStudent={handleAddStudent} />
+        <div class="carousel">
         <Carousel   
             renderArrowNext={(clickHandler, hasNext) => {
                 return (
@@ -61,6 +69,8 @@ function Queue() {
                 ))}
             </Carousel>
             </div>
+      </Container>
+
     );
 }
 
