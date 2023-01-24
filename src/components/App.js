@@ -15,10 +15,8 @@ function App() {
         <Route exact path="/">
           <Home />
         </Route>
-        <Route exact path="/form">
-        </Route>
-        <Route exact path="/queue">
-          <Queue />
+        <Route exact path="/sorting">
+          <Sorting />
         </Route>
       </Switch>
     </div>

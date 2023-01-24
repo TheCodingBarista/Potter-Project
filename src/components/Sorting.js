@@ -6,7 +6,7 @@ import { Carousel } from 'react-responsive-carousel';
 import { Container } from "semantic-ui-react";
 import sprite from "../sprite.svg";
 
-function Queue() {
+function Sorting() {
     const [students, setStudents] = useState([]);
 
     useEffect(() => {
@@ -23,7 +23,7 @@ function Queue() {
       <Container>
         <StudentForm onAddStudent={handleAddStudent} />
         <div className="carousel">
-        <Carousel   
+          <Carousel
             renderArrowNext={(clickHandler, hasNext) => {
                 return (
                     hasNext && (
@@ -67,10 +67,10 @@ function Queue() {
                 {students.map((student) => (
                     <Student student={student} />
                 ))}
-            </Carousel>
-            </div>
+          </Carousel>
+        </div>
       </Container>
     );
 }
 
-export default Queue;
+export default Sorting;
