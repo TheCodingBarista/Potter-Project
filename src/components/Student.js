@@ -10,7 +10,7 @@ function Student({ student }) {
     };
 
     return (
-        <div className="carousel-cell">
+        <div>
                 <br></br>
                 <img 
                     src={image}

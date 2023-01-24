@@ -1,7 +1,8 @@
 import React from 'react';
 import { Route, Switch } from "react-router-dom";
-import Queue from './Queue';
+import Sorting from './Sorting';
 import Home from './Home';
+import StudentsPage from './StudentsPage';
 import NavMenu from './NavMenu';
 import '../App.css';
 
@@ -17,6 +18,9 @@ function App() {
         </Route>
         <Route exact path="/sorting">
           <Sorting />
+        </Route>
+        <Route exact path="/students">
+          <StudentsPage />
         </Route>
       </Switch>
     </div>
