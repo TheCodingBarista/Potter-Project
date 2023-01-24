@@ -179,11 +179,12 @@ h2 {
   width: 100%;
   background-color: #f4f4f9;
   outline: none;
-  border: none;
+  border: slategrey;
   border-radius: 10px;
-  font-size: 18px;
+  font: 36px bold "Oswald";
   padding: 10px;
   box-sizing: border-box;
   margin-bottom: 10px;
   text-align: center;
+  color: slategrey;
 }

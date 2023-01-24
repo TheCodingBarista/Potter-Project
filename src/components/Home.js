@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Header() {
+function Home() {
     return (
         <header className="App-header">
             <h1>The ceremony is about to begin!</h1>
@@ -10,7 +10,4 @@ function Header() {
     )
 }
 
-
-
-
-export default Header;
+export default Home;

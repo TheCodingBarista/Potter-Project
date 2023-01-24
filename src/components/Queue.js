@@ -70,7 +70,6 @@ function Queue() {
             </Carousel>
             </div>
       </Container>
-
     );
 }
 
