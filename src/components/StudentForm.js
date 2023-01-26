@@ -5,6 +5,7 @@ function StudentForm({ onAddStudent }) {
     const [formData, setFormData] = useState({
         name: "",
         house: "",
+        image:"",
     });
 
     function handleChange(event) {
@@ -18,16 +19,17 @@ function StudentForm({ onAddStudent }) {
         const newStudent = {
             name: formData.name,
             house: formData.house,
+            image: formData.image,
         };
         
-        fetch("https://localhost:3001/students", { 
+        fetch("http://localhost:3001/students", { 
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
             },
             body: JSON.stringify(newStudent),
         })
-            .then(response => response.json())
+            .then((response) => response.json())
             .then(onAddStudent);
     }
     
@@ -51,6 +53,14 @@ function StudentForm({ onAddStudent }) {
                     name="house"
                     value={formData.house}
                     onChange={handleChange}
+                />
+                <Form.Input
+                fluid
+                label="Image"
+                placeholder="url"
+                name="image"
+                value={formData.image}
+                onChange={handleChange}
                 />
                 </Form.Group>
                 <Form.Button>Submit</Form.Button>
