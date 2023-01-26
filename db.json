@@ -143,6 +143,12 @@
       "name": "Blaise Zabini",
       "house": "slytherin",
       "image": "https://i.pinimg.com/550x/c9/d3/14/c9d314bb22e56f8516e3a4b991f76639.jpg"
+    },
+    {
+      "name": "Mel B",
+      "house": "Gryffindor",
+      "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/03/harry-potter-hogwarts-legacy-character-creation-tease.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5",
+      "id": 25
     }
   ]
 }

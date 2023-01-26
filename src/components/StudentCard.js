@@ -18,7 +18,7 @@ function StudentCard({ student, onDeleteStudent }) {
             <Card.Body>
                 <Card.Title>{name}</Card.Title>
                 <Card.Text>{house}</Card.Text>
-                <button className="remove" onClick={handleDeleteClick}>Delete</button>
+                <button className="button remove" onClick={handleDeleteClick}>Delete</button>
             </Card.Body>
         </Card>
     );
