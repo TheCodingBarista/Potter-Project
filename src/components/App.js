@@ -5,7 +5,7 @@ import Home from './Home';
 import Sorting from './Sorting';
 import StudentsPage from './StudentsPage';
 import StudentForm from './StudentForm';
-import '../App.css';
+import '../css/App.css';
 
 
 function App() {

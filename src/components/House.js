@@ -1,8 +1,8 @@
 import React from "react";
-import Gryffindor from "./Gryffindor";
-import Hufflepuff from "./Hufflepuff";
-import Ravenclaw from "./Ravenclaw";
-import Slytherin from "./Slytherin";
+import Gryffindor from "./houses/Gryffindor";
+import Hufflepuff from "./houses/Hufflepuff";
+import Ravenclaw from "./houses/Ravenclaw";
+import Slytherin from "./houses/Slytherin";
 
 
 function House({ house }) {
