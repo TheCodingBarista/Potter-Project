@@ -57,13 +57,10 @@ function Sorting() {
           }}          
       >
             {students.map((student) => (
-              <Student className="carousel-cell" key={student.id} tudent={student} />
+              <Student className="carousel-cell" key={student.id} student={student} />
             ))}
       </Carousel>
     </div>
 )};
-
-
-
 
 export default Sorting;

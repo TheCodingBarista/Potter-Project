@@ -156,17 +156,16 @@ h2 {
 .button {
 	border: 3px solid white;
 	margin: 40px auto 0;
-	background: slategray;
+	background: white;
 	font: 35px "Oswald", sans-serif; 
 	padding: 8px 20px;
 	cursor: pointer;
 	width: 180px;
 	position: relative;
-  color: white;
+  color: slategrey;
 }
 
 .form {
-  max-width: 450px;
   margin: 50px auto 0 auto;
   border-radius: 10px;
   background-color: #b8dbd9;
@@ -176,17 +175,16 @@ h2 {
 }
 
 .input {
-  width: 100%;
   background-color: #f4f4f9;
   outline: none;
   border: slategrey;
   border-radius: 10px;
-  font: 36px bold "Oswald";
+  font: 48px bold "Oswald";
   padding: 10px;
   box-sizing: border-box;
-  margin-bottom: 10px;
+  margin-right: 25px;
   text-align: center;
-  color: slategrey;
+  color: #000;
 }
 
 .studentsGrid {
