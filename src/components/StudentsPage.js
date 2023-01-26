@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import StudentCard from "./StudentCard";
 import Container from 'react-bootstrap/Container';
 import CardGroup from 'react-bootstrap/CardGroup';
-import StudentForm from "./StudentForm";
 
 function StudentsPage() {
     const [students, setStudents] = useState([]);
@@ -18,7 +17,6 @@ function StudentsPage() {
 
     return (
       <Container>
-        <StudentForm />
         <br></br><br></br>
         <CardGroup className= "studentsGrid row align-items-center justify-content-center container-fluid">
           {cards}

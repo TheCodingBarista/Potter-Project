@@ -14,7 +14,7 @@ function NavMenu() {
             <Nav.Link href="/sorting">Sorting</Nav.Link>
             <Nav.Link href="/students">All Students</Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Add Student</NavDropdown.Item>
+              <NavDropdown.Item href="#/students/new">Add Student</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
               </NavDropdown.Item>

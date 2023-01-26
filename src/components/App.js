@@ -1,9 +1,10 @@
 import React from 'react';
 import { Route, Switch } from "react-router-dom";
-import Sorting from './Sorting';
-import Home from './Home';
-import StudentsPage from './StudentsPage';
 import NavMenu from './NavMenu';
+import Home from './Home';
+import Sorting from './Sorting';
+import StudentsPage from './StudentsPage';
+import StudentForm from './StudentForm';
 import '../App.css';
 
 
@@ -21,6 +22,9 @@ function App() {
         </Route>
         <Route exact path="/students">
           <StudentsPage />
+        </Route>
+        <Route exact path="/students/new">
+          <StudentForm />
         </Route>
       </Switch>
     </div>
