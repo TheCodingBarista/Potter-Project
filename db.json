@@ -5,145 +5,144 @@
       "name": "Harry Potter",
       "house": "gryffindor",
       "image": "http://hp-api.herokuapp.com/images/harry.jpg"
-      },
-      {
+    },
+    {
       "id": 2,
       "name": "Hermione Granger",
       "house": "gryffindor",
       "image": "http://hp-api.herokuapp.com/images/hermione.jpeg"
-      },
-      {
+    },
+    {
       "id": 3,
       "name": "Ron Weasley",
       "house": "gryffindor",
       "image": "http://hp-api.herokuapp.com/images/ron.jpg"
-      },
-      {
+    },
+    {
       "id": 4,
       "name": "Draco Malfoy",
       "house": "slytherin",
       "image": "http://hp-api.herokuapp.com/images/draco.jpg"
-      },
-      {
+    },
+    {
       "id": 5,
       "name": "Cedric Diggory",
       "house": "hufflepuff",
       "image": "http://hp-api.herokuapp.com/images/cedric.png"
-      },
-      {
+    },
+    {
       "id": 6,
       "name": "Cho Chang",
       "house": "ravenclaw",
       "image": "http://hp-api.herokuapp.com/images/cho.jpg"
-      },
-      {
+    },
+    {
       "id": 7,
       "name": "Neville Longbottom",
       "house": "gryffindor",
       "image": "http://hp-api.herokuapp.com/images/neville.jpg"
-      },
-      {
+    },
+    {
       "id": 8,
       "name": "Luna Lovegood",
       "house": "ravenclaw",
       "image": "http://hp-api.herokuapp.com/images/luna.jpg"
-      },
-      {
+    },
+    {
       "id": 9,
       "name": "Ginny Weasley",
       "house": "gryffindor",
       "image": "http://hp-api.herokuapp.com/images/ginny.jpg"
-      },
-      {
+    },
+    {
       "id": 10,
       "name": "Vincent Crabbe",
       "house": "slytherin",
       "image": "http://hp-api.herokuapp.com/images/crabbe.jpg"
-      },
-      {
+    },
+    {
       "id": 11,
       "name": "Gregory Goyle",
       "house": "slytherin",
       "image": "http://hp-api.herokuapp.com/images/goyle.jpg"
-      },
-      {
+    },
+    {
       "id": 12,
       "name": "Percy Weasley",
       "house": "gryffindor",
       "image": "https://www.tafce.com/images/thumb/1/17/Percy_CoS_-_Edited.png/375px-Percy_CoS_-_Edited.png"
-
-      },
-      {
+    },
+    {
       "id": 13,
       "name": "Fred Weasley",
       "house": "gryffindor",
       "image": "https://img.wattpad.com/cover/112730795-288-k482373.jpg"
-      },
-      {
+    },
+    {
       "id": 14,
       "name": "George Weasley",
       "house": "gryffindor",
       "image": "https://images.hobbydb.com/processed_uploads/subject_photo/subject_photo/image/29897/1503525390-20754-6318/GEO_large.jpg"
-      },
-      {
+    },
+    {
       "id": 15,
       "name": "Lee Jordan",
       "house": "gryffindor",
       "image": "https://www.tafce.com/images/thumb/2/25/Lee_Jordan_-_Edited.png/400px-Lee_Jordan_-_Edited.png"
-      },
-      {
-      "id":16,
+    },
+    {
+      "id": 16,
       "name": "Hannah Abbott",
       "house": "hufflepuff",
       "image": "https://pbs.twimg.com/profile_images/1170687831427039238/8qKj4Lnp_400x400.jpg"
-      },
-      {
+    },
+    {
       "id": 17,
       "name": "Susan Bones",
       "house": "hufflepuff",
       "image": "https://i.redd.it/wy4jbgxxyem71.jpg"
-      },
-      {
+    },
+    {
       "id": 18,
       "name": "Lavender Brown",
       "house": "gryffindor",
       "image": "https://www.looper.com/img/gallery/why-the-role-of-lavender-brown-was-recast-in-harry-potter/lavender-brown-was-played-by-three-actresses-in-the-harry-potter-films-1626966623.webp"
-      },
-      {
+    },
+    {
       "id": 19,
       "name": "Justin Finch-Fletchley",
       "house": "hufflepuff",
       "image": "https://i.pinimg.com/736x/cc/e9/14/cce914a981ce03a0db4334c6fe5dbb1d--st-year-loyalty.jpg"
-      },
-      {
+    },
+    {
       "id": 20,
       "name": "Seamus Finnigan",
       "house": "gryffindor",
       "image": "https://images.ctfassets.net/usf1vwtuqyxm/3AIPltW688yYGguoOacqOE/1eeae65e73b7b50df79d510b329dd866/SeamusFinnigan_WB_F4_SeamusFinniganGrabbingHisCloak_Promo_080615_Port.jpg?w=914&q=70&fm=jpg"
-      },
-      {
+    },
+    {
       "id": 21,
       "name": "Dean Thomas",
       "house": "gryffindor",
       "image": "https://pbs.twimg.com/profile_images/3365588860/a24116821e56224b8c0b88a3bc30ff38_400x400.png"
-      },
-      {
+    },
+    {
       "id": 22,
       "name": "Parvati Patil",
       "house": "gryffindor",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNIDo7ChEyM03BvJhFSwESHEMuq59KhkXfKFEShmpwzTq_en6TKxlh2J1dwADf9PWx8No&usqp=CAU"
-      } ,     
-      {
+    },
+    {
       "id": 23,
       "name": "Padma Patil",
       "house": "ravenclaw",
       "image": "https://i.pinimg.com/564x/36/fd/79/36fd791fc0d0e43663ee27eaa874ed56.jpg"
-      },        
-      {
+    },
+    {
       "id": 24,
       "name": "Blaise Zabini",
       "house": "slytherin",
       "image": "https://i.pinimg.com/550x/c9/d3/14/c9d314bb22e56f8516e3a4b991f76639.jpg"
-      }    
+    },
   ]
 }

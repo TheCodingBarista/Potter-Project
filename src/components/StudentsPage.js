@@ -7,7 +7,7 @@ import CardGroup from 'react-bootstrap/CardGroup';
 function StudentsPage() {
   const [students, setStudents] = useState([]);
     const cards = students.map((student) => (
-        <StudentCard student={student} />
+        <StudentCard key={student.id} student={student} />
     ));
 
     useEffect(() => {
