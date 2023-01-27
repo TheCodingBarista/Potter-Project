@@ -23,9 +23,6 @@ function App() {
         <Route exact path="/students">
           <StudentsPage />
         </Route>
-        <Route exact path="/students/new">
-          <StudentForm />
-        </Route>
       </Switch>
     </div>
   );
