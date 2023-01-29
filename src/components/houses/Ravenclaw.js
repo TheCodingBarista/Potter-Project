@@ -1,5 +1,3 @@
-import React from "react";
-
 function Ravenclaw({ house }) {
     return (
         <div className="ravenclaw">

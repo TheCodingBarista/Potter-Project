@@ -18,7 +18,6 @@ function NavMenu() {
               <NavDropdown.Item href="/students/new">
                 Add Student
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="https://github.com/TheCodingBarista/potter-project">
                 Check out the Repo

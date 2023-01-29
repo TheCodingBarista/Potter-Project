@@ -1,5 +1,3 @@
-import React from "react";
-
 function Hufflepuff({ house }) {
     return (
         <div className="hufflepuff">

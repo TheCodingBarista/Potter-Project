@@ -1,4 +1,3 @@
-import React from "react";
 import Gryffindor from "./houses/Gryffindor";
 import Hufflepuff from "./houses/Hufflepuff";
 import Ravenclaw from "./houses/Ravenclaw";

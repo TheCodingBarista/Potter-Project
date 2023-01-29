@@ -1,8 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import House from './House';
 
 function Student({ student }) {
-    const { name, image, house} = student;
+    const { name, house, image = "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/03/harry-potter-hogwarts-legacy-character-creation-tease.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5"} = student;
     const [toggle, setToggle] = useState(true);
 
     const handleClick = () => {

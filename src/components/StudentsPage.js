@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import StudentCard from "./StudentCard";
 import StudentForm from "./StudentForm";
 import Container from 'react-bootstrap/Container';
@@ -7,7 +7,7 @@ import CardGroup from 'react-bootstrap/CardGroup';
 function StudentsPage() {
   const [students, setStudents] = useState([]);
     const cards = students.map((student) => (
-        <StudentCard key={student.id} student={student}  onUpdateStudent={handleUpdateStudent} onDeleteStudent={handleDeleteStudent} />
+        <StudentCard key={student.id} student={student} onUpdateStudent={handleUpdateStudent} onDeleteStudent={handleDeleteStudent} />
     ));
 
     useEffect(() => {
