@@ -21,6 +21,12 @@ function StudentForm({ onAddStudent }) {
             house: formData.house,
             image: formData.image,
         };
+
+        setFormData({ 
+            name: "",
+            house: "",
+            image: "",
+        })
         
         fetch("http://localhost:3001/students", { 
             method: "POST",
