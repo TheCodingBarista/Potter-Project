@@ -26,7 +26,7 @@ My name is Mel and I enjoy telling stories with my apps. I'm a full-stack develo
 
 ## Screenshots
 
-[![App Screenshot]("C:\Users\melis\OneDrive\Pictures\potter project.jpg")
+[![App Screenshot]((https://1drv.ms/i/s!AuZmjMlLHEf7gtlPgAkQD1WyXXi9VA?e=Sv0IzF))
 )
 )
 
