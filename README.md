@@ -26,7 +26,8 @@ My name is Mel and I enjoy telling stories with my apps. I'm a full-stack develo
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](![image](https://github.com/TheCodingBarista/potter-project/assets/56182886/6827da2e-c92f-4e18-9650-d452f2272f45)
+)
 
 
 ## Contributing
